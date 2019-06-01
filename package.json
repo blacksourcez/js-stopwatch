@@ -1,0 +1,17 @@
+{
+  "name": "js-stopwatch",
+  "version": "1.0.0",
+  "repository": "https://github.com/blacksourcez/js-stopwatch.git",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "jest": "^24.8.0"
+  }
+}
