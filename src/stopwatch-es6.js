@@ -1,3 +1,12 @@
+/*
+ * Javascript Stopwatch class
+ * http://www.seph.dk
+ *
+ * Copyright 2009 Seph soliman
+ * Released under the CC BY 4.0 (do whatever you want - just leave my name on it)
+ * https://creativecommons.org/licenses/by/4.0/
+ */
+
 class Stopwatch {
 	constructor(listener, resolution, countUp) {
 		this.startTime = 0;
