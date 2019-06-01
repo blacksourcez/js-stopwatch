@@ -159,4 +159,9 @@ class Stopwatch {
 	}
 }
 
-export default Stopwatch;
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+	module.exports = Stopwatch;
+}
+else {
+	window.Stopwatch = Stopwatch;
+}
